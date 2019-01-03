@@ -5,45 +5,60 @@ body{
 }
 hr{
   border-style: dotted none none;
-  border-color: #5ea3a3;
+  border-color: #66BFBF;
   border-width: 5px;
   width: 5%;
+  margin: auto;
 }
 h1{
+  line-height: 2;
+  color: #66BFBF;
   margin-top: 0;
   font-family: 'Sacramento', cursive;
 }
 h2{
+  color: #66BFBF;
   font-family: 'Montserrat', sans-serif;
 }
 h3{
+  color: #11999E;
   font-family: 'Montserrat', sans-serif;
 }
+a{
+  color: #11999E;
+  text-decoration: none;
+}
+p{
+  font-size: 1.25em;
+}
 .avatar{
-  height: 200px;
+  width: 25%;
 }
 .bottom-cloud{
   position: absolute;
   left: 300px;
   bottom: 300px;
 }
-.bottom-container{
-
-}
 .computer{
-  height: 200px;
+  width: 25%;
 }
 .desc{
   font-size: 1.5em;
+  font-weight: normal;
   margin-top: 10px;
 }
 .increase{
-  height: 200px;
+  width: 25%;
 }
 .middle-container{
   padding-top: 50px;
 }
+.contact-me{
+  width: 50%;
+  margin: auto;
+}
 .name{
+  color: black;
   font-size: 4.5em;
   margin-bottom: 0;
 }
@@ -53,7 +68,16 @@ h3{
   top: 50px;
 }
 .top-container{
-  background-color: #5ea3a3;
+  background-color: #11999E;
   position: relative;
   padding-top: 100px;
+}
+.skill-row{
+  margin: 50px auto;
+  width: 50%;
+  line-height: 1.5;
+}
+.profile{
+  width: 50%;
+  margin: auto;
 }
